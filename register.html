@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="regstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="regscript.js"></script>
+  </head>
+  <body>
+  	<h1 class="webTitle">MusicShare</h1>
+    <div class="main">
+      <center>
+        <form id="regform" action="reg.jsp">
+          <input id="first" type="text" name="first" placeholder="First Name"><br>
+          <input id="last" type="text" name="last" placeholder="Last Name"><br>
+          <input id="email" type="email" name="email" placeholder="E-mail Address"><br>
+          <input id="pass" type="password" name="pass" placeholder="Password"><br>
+          <input id="rpass" type="password" onchange="check()" name="rpass" placeholder="Re-type Password"><br>
+          <p style="color:red;" id="passErr"></p>
+          <button id="regButton" type="submit" name="submit">Register</button>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+	margin : 30px;
+	border: #76ff03 5px solid;
+  border-radius: 10px;
+}
+
+
+.webTitle {
+  font-size: 60px;
+  text-align : center;
+  font-family : 'Pacifico', cursive;
+  letter-spacing: -2px;
+  background: #76ff03;
+  padding-bottom: 10px;
+  color : white;
+}
+
+.main {
+  padding: 10px;
+	font-family : 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+.linkButton {
+  padding: 5px;
+  margin: 20px;
+  border: #76ff03 3px solid;
+  border-radius: 7px;
+  width: 150px;
+  font-family : 'Pacifico', cursive;
+  color: #76ff03;
+}
+
+.linkButton a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+}
+
+.linkButton:hover {
+  animation: colorswitch 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes colorswitch {
+  from {color: #76ff03; background-color: white}
+  to {color: white; background-color: #76ff03}
+}
+
+#logout {
+	float: right;
+	text-decoration: none;
+	color: #76ff03;
+}

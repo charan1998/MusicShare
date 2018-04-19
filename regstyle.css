@@ -1,0 +1,44 @@
+body {
+	margin : 30px;
+	border: #76ff03 5px solid;
+  border-radius: 10px;
+}
+
+
+.webTitle {
+  font-size: 60px;
+  text-align : center;
+  font-family : 'Pacifico', cursive;
+  letter-spacing: -2px;
+  background: #76ff03;
+  padding-bottom: 10px;
+  color : white;
+}
+
+.main {
+  padding: 10px;
+}
+
+#regform {
+  font-family : 'Pacifico', cursive;
+}
+
+#regform input {
+  margin: 10px;
+  width: 300px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+#regform button {
+  margin: 10px;
+  width: 150px;
+  font-size: 20px;
+  font-family: inherit;
+}
+
+h1 {
+	color: #76ff03;
+	font-family : 'Pacifico', cursive;
+	font-size: 40px;
+}
